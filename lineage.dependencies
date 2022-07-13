@@ -1,7 +1,7 @@
 [
   {
-    "repository": "J120H-dev/android_device_samsung_sharkls-common",
-    "target_path": "device/samsung/sharkls-common",
+    "repository": "J120H-dev/android_device_samsung_sc8830-common",
+    "target_path": "device/samsung/sc8830-common",
     "revision": "cm-14.1"
   }
 ]
