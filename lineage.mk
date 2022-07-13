@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/j3xlte/j3xlte.mk)
+$(call inherit-product, device/samsung/j1x3g/j1x3g.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := j3xlte
-PRODUCT_RELEASE_NAME := j3xlte
-PRODUCT_NAME := lineage_j3xlte
+PRODUCT_DEVICE := j1x3g
+PRODUCT_RELEASE_NAME := j1x3g
+PRODUCT_NAME := lineage_j1x3g
 PRODUCT_BRAND := samsung
-PRODUCT_MODEL := SM-J320F
+PRODUCT_MODEL := SM-J120H
 PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung

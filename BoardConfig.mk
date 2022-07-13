@@ -19,10 +19,9 @@
 -include device/samsung/sharkls-common/BoardConfigCommon.mk
 
 # kernel
-TARGET_KERNEL_CONFIG := j3xlte_defconfig
-#TARGET_KERNEL_CONFIG := j3xlte_permissive_defconfig
+TARGET_KERNEL_CONFIG := lineage_j1x3g_defconfig
 
 # Init
-TARGET_INIT_VENDOR_LIB := libinit_j3xlte
-TARGET_RECOVERY_DEVICE_MODULES := libinit_j3xlte
+TARGET_INIT_VENDOR_LIB := libinit_j1x3g
+TARGET_RECOVERY_DEVICE_MODULES := libinit_j1x3g
 

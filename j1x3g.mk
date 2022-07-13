@@ -16,7 +16,7 @@
 #
 
 # Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/samsung/j3xlte/j3xlte-vendor.mk)
+$(call inherit-product-if-exists, vendor/samsung/j1x3g/j1x3g-vendor.mk)
 
 # Inherit from sharkls-common
 $(call inherit-product, device/samsung/sharkls-common/sharkls.mk)
